@@ -1,0 +1,97 @@
+:root{
+    --color-background-hero:#5c6269;
+    --color-background-content:#393c3e;
+    --color-background-info:#ffffff;
+    --color-primary: #393c3e;
+    --color-secondary:#ffffff;
+
+    --font-hero-title:'Michroma', sans-serif;
+    --font-hero-description: 'Poppins', sans-serif;
+    --font-data: 'Anton', sans-serif;
+
+    /* --margin-hero:0 400px; */
+}
+body{
+    font-family: 'Michroma', sans-serif;
+    font-size:12px;
+}
+
+.hero .card{
+    background: var(--color-background-hero) !important;
+    height: 450px;
+    height: auto;
+    padding:0 20px;
+}
+
+.hero__content{
+    display:grid;
+    grid-auto-flow:dense;
+    grid-auto-rows:12rem;
+    grid-template-columns: repeat(auto-fit,minmax(100%,1fr));
+}
+.hero__picture{
+    margin:0 auto;
+
+}
+.hero__picture img{
+    padding:25px 0;
+    width:300px;
+    border-radius: 50%;
+}
+
+.hero__title{
+    font-size: calc(2em + 0.5vh);
+    font-weight: 700;
+    color:var(--color-secondary);
+}
+
+.hero__title__cap{
+    font-size: calc(2em + 0.1vh);
+    font-weight: 900;
+}
+
+.hero__subtitle{
+    font-size: 2em;
+    color:var(--color-secondary);
+}
+
+.hero__description{
+    margin-top:15px;
+    color: var(--color-secondary);
+    font-family: var(--font-hero-description);
+    font-weight: 300;
+    font-size: calc(1.5em + .01vh);
+}
+
+.section{
+    /* background: gray; */
+    display:grid;
+    grid-auto-flow:dense;
+    grid-auto-rows:auto;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    /* margin:20px 0; */
+}
+
+.section__title{
+    font-family: var(--font-data);
+    font-size: 3rem;
+    background: var(--color-background-content);
+    color:var(--color-secondary);
+    padding:15px 0 0 25px;
+    height: auto;
+}
+.section__data{
+    background: var(--color-background-info);
+    padding:15px 0 0 25px;
+    line-height: 30px;
+}
+.section__data__title{
+    font-family: var(--font-hero-description);
+    font-size: 1rem;
+}
+.section__data__info{
+    font-family: var(--font-hero-description);
+    font-size: .95rem;
+    font-weight: 200;
+    line-height: 30px;
+}
