@@ -5,7 +5,7 @@ Fue creado con React js
 
 ## Scripts
 
-### `npm install`
+### `npm install -S`
 Se utiliza para instalar todas las dependencias especificadas en `package.json` después de haber clonado el código, puesto que en el archivo `.gitignore` se espeifica que no se incluya. Con esto se creará la carpeta `node_modules`
 
 ### `npm start`
