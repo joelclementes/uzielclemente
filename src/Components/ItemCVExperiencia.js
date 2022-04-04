@@ -2,7 +2,9 @@ import React from "react";
 export default function ItemCVExperiencia(){
     return(
             <section className="section" id="educacion">
-                <div className="section__title">Experiencia laboral</div>
+                <div className="section__title">
+                    <div className="wow fadeInDown">Experiencia laboral</div>
+                </div>
                 <div className="section__data">
                     <p className="section__data__title">INTO INSPIRATIONS S.A DE C.V.</p>
                     <p className="section__data__info">Mayo 2018 - Octubre 2018</p>

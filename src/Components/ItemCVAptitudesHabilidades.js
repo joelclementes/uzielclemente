@@ -2,7 +2,9 @@ import React from "react";
 export default function ItemCVAptitudesHabilidades() {
     return (
         <section className="section" id="educacion">
-            <div className="section__title">Aptitudes y Habilidades</div>
+            <div className="section__title">
+                <div className="wow fadeInDown">Aptitudes y Habilidades</div>
+            </div>
             <div className="section__data">
                 <div className="row">
                     <div className="col-xs-12 col-sm-6">

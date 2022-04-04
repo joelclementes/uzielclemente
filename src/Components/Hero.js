@@ -7,15 +7,15 @@ export default function Hero() {
                 <div className="card">
                     <div className="row g-0">
                         <div className="col-md-3 hero__picture">
-                            <img src={foto} className="img-fluid rounded-all"
+                            <img src={foto} className="img-fluid rounded-all wow zoomIn"
                                 alt="Fotografía de Uziel Clemente Cruz" />
                         </div>
                         <div className="col-md-9">
                             <div className="card-body">
-                                <div className="card-title hero__title"><span className="hero__title__cap">U</span>ZIEL <span
+                                <div className="card-title hero__title wow fadeInDown"><span className="hero__title__cap">U</span>ZIEL <span
                                     className="hero__title__cap">C</span>LEMENTE <span className="hero__title__cap">C</span>RUZ
                                 </div>
-                                <div className="hero__subtitle">Diseñador Industrial</div>
+                                <div className="hero__subtitle wow fadeInDown">Diseñador Industrial</div>
                                 <div className="hero__description">
                                     <p>Soy un diseñador industrial capaz de resolver problemas mediante el análisis de las
                                         necesidades de usuarios, equilibrando el beneficio y las soluciones entre todas las

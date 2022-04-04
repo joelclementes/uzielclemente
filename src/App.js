@@ -1,10 +1,18 @@
+import React from 'react';
 import Hero from "./Components/Hero";
 import ItemCVEducacion from "./Components/ItemCVEducacion";
 import ItemCVExperiencia from "./Components/ItemCVExperiencia";
 import ItemCVHerramientasTecnologias from "./Components/ItemCVHerramientasTecnologias";
 import ItemCVAptitudesHabilidades from "./Components/ItemCVAptitudesHabilidades";
 import ItemCVContacto from "./Components/ItemCVContacto";
-function App() {
+import WOW from 'wowjs';
+class App extends React.Component {
+  componentDidMount(){
+    new WOW.WOW({
+      live:false
+    }).init();
+  }
+  render(){
   return (
     <div>
       <Hero/>
@@ -21,6 +29,7 @@ function App() {
       </main>
     </div>
   );
+}
 }
 
 export default App;
