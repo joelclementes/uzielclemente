@@ -19,4 +19,8 @@ Your app is ready to be deployed!.\
 Para más información mira [aquí](https://facebook.github.io/create-react-app/docs/deployment)
 
 ## Dónde está alojada la página
+<<<<<<< HEAD
 Está en [netlify](https://www.netlify.com/)
+=======
+Está en [netlify](https://www.netlify.com/)
+>>>>>>> daa9922b2976f033c2ef8ec91f14ab4ef27332f2
