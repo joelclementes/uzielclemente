@@ -15,7 +15,6 @@ Abre [http://localhost:3000](http://localhost:3000) para visualizar la página e
 ### `npm run build`
 Construye la aplicación para producción en la carpeta `build`.\
 ¡La aplicación está lista para ser desplegada!
-Your app is ready to be deployed!.\
 Para más información mira [aquí](https://facebook.github.io/create-react-app/docs/deployment)
 
 ## Dónde está alojada la página
